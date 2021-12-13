@@ -1,0 +1,22 @@
+
+
+The current trial is: 
+lj_fitting
+
+The employed function set is: 
+['add', 'sub', 'mul', 'div', 'pow_6', 'pow_12', 'epsilon_div', 'sigma_div']
+
+The symbolic regression score is: 0.9831977838264849
+
+The equation is:
+ div(sub(pow_12(sigma_div(X0)), pow_6(sigma_div(X0))), pow_6(1.047))
+
+Model parameters are:
+Population size -> 5000
+# of generations -> 30
+const_range -> (0.9, 1.1)
+p_crossover -> 0.5
+p_subtree_mutation -> 0.16666666666666666
+p_point_mutation -> 0.1666666666666667
+p_hoist_mutation -> 0.16666666666666666
+parsimony_coefficient -> 0.0005

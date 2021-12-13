@@ -1,0 +1,44 @@
+
+
+The current trial is: 
+lj_fitting_free
+
+The employed function set is: 
+['add', 'sub', 'mul', 'div', 'pow_2', 'pow_3', 'epsilon_div', 'sigma_div']
+
+The symbolic regression score is: 0.939932792490524
+
+The equation is:
+ sigma_div(sub(add(sub(sub(epsilon_div(X0), pow_2(X0)), X0), sigma_div(mul(pow_3(div(sigma_div(1.062), pow_3(X0))), add(pow_2(pow_3(1.094)), pow_2(pow_2(X0)))))), pow_2(sigma_div(1.047))))
+
+Model parameters are:
+Population size -> 5000
+# of generations -> 50
+const_range -> (0.9, 1.1)
+p_crossover -> 0.5
+p_subtree_mutation -> 0.16666666666666666
+p_point_mutation -> 0.1666666666666667
+p_hoist_mutation -> 0.16666666666666666
+parsimony_coefficient -> 0.0001
+
+
+The current trial is: 
+lj_fitting_free
+
+The employed function set is: 
+['add', 'sub', 'mul', 'div', 'pow_6', 'pow_12', 'epsilon_div', 'sigma_div']
+
+The symbolic regression score is: 0.969059763454429
+
+The equation is:
+ mul(0.790, sub(pow_12(sigma_div(X0)), pow_6(sigma_div(X0))))
+
+Model parameters are:
+Population size -> 5000
+# of generations -> 30
+const_range -> (-1, 1)
+p_crossover -> 0.5
+p_subtree_mutation -> 0.16666666666666666
+p_point_mutation -> 0.1666666666666667
+p_hoist_mutation -> 0.16666666666666666
+parsimony_coefficient -> 0.0005
